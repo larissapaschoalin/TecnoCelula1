@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/inicioItem"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/inicio" />
+
+        <item
+            android:id="@+id/camaraItem"
+            android:icon="@mipmap/ic_camera_alt"
+            android:title="@string/scanner" />
+
+        <item
+            android:id="@+id/sobreItem"
+            android:icon="@mipmap/ic_info"
+            android:title="@string/sobre" />
+
+    </menu>

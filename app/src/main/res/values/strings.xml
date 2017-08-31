@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TecnoCelula1</string>
+    <string name="inicio">Inicio</string>
+    <string name="buscar">Buscar</string>
+    <string name="scaner">Scaner</string>
+    <string name="sobre">Sobre</string>
+    <string name="scanner">Scanner</string>
+</resources>
