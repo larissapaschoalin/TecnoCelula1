@@ -9,7 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class SobreActivity extends AppCompatActivity {
+public class InicialActivity extends AppCompatActivity {
+
     private ImageButton buttonInicio;
     private ImageButton buttonCamera;
     private ImageButton buttonInfo;
@@ -23,7 +24,7 @@ public class SobreActivity extends AppCompatActivity {
         buttonInicio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SobreActivity.this, InicialActivity.class));
+                //colocar toast
             }
 
         });
@@ -42,15 +43,12 @@ public class SobreActivity extends AppCompatActivity {
         buttonInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //colocar toast
+                startActivity(new Intent(InicialActivity.this, SobreActivity.class));
             }
 
         });
 
 
     }
-
-
-
     }
 

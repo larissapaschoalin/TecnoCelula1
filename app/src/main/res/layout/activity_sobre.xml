@@ -29,12 +29,4 @@
 
     </FrameLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="167dp"
-        android:layout_height="145dp"
-        app:srcCompat="@drawable/ifpr"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="331dp" />
-
 </android.support.design.widget.CoordinatorLayout>
