@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SobreActivity"></activity>
+        <activity android:name=".SobreActivity" />
+        <activity android:name=".TesteSom"></activity>
     </application>
 
 </manifest>
