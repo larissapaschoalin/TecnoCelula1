@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SobreActivity" />
+        <activity android:name=".TesteSom" />
         <activity android:name=".InicialActivity"></activity>
     </application>
 
