@@ -20,6 +20,7 @@ public class ComplexoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ComplexoActivity.this, InicialActivity.class));
+                
             }
         });
         buttonCamera = (ImageButton) findViewById(R.id.buttonCamera);
