@@ -1,11 +1,8 @@
 package com.example.usuario.tecnocelula1;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -18,7 +15,7 @@ public class SobreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sobre);
 
-        buttonInicio = (ImageButton) findViewById(R.id.buttonInicio);
+        buttonInicio = (ImageButton) findViewById(R.id.button_inicio);
 
         buttonInicio.setOnClickListener(new View.OnClickListener() {
             @Override
