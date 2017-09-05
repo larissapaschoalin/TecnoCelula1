@@ -2,6 +2,7 @@ package com.example.usuario.tecnocelula1;
 
 import android.content.Intent;
 import android.database.CursorJoiner;
+import android.media.MediaPlayer;
 import android.support.v4.media.MediaBrowserServiceCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -73,6 +74,9 @@ public class InicialActivity extends AppCompatActivity {
             if(resultCode.equals("complexo")) {
                 setContentView(R.layout.activity_complexo);
                 scannerView.stopCamera();
+                final MediaPlayer mediaPlayer = MediaPlayer.create(InicialActivity.this, R.raw.complexo_golgi);
+                mediaPlayer.start();
+
             }
 
         }

@@ -9,11 +9,11 @@ import android.widget.ImageButton;
 public class ComplexoActivity extends AppCompatActivity {
     private ImageButton button_inicio;
     private ImageButton buttonCamera;
-    private ImageButton buttonInfo;
+    private ImageButton lbuttonInfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicial);
+        setContentView(R.layout.activity_complexo);
 
         button_inicio = (ImageButton) findViewById(R.id.button_inicio);
         button_inicio.setOnClickListener(new View.OnClickListener() {
@@ -33,9 +33,9 @@ public class ComplexoActivity extends AppCompatActivity {
 
         });
 
-        buttonInfo = (ImageButton) findViewById(R.id.lbuttonInfo);
+        lbuttonInfo = (ImageButton) findViewById(R.id.lbuttonInfo);
 
-        buttonInfo.setOnClickListener(new View.OnClickListener() {
+        lbuttonInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ComplexoActivity.this, SobreActivity.class));

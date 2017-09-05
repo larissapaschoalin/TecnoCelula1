@@ -24,7 +24,7 @@
         <activity android:name=".SobreActivity" />
         <activity android:name=".TesteSom" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ComplexoActivity"></activity>
+        <activity android:name=".ComplexoActivity"/>
     </application>
 
 </manifest>
