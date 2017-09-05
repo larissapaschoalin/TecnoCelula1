@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 public class SobreActivity extends AppCompatActivity {
     private ImageButton buttonInicio;
     private ImageButton buttonCamera;
-    private ImageButton buttonInfo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,15 +34,6 @@ public class SobreActivity extends AppCompatActivity {
 
         });
 
-        buttonInfo = (ImageButton) findViewById(R.id.lbuttonInfo);
-
-        buttonInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //colocar toast
-            }
-
-        });
 
 
     }
